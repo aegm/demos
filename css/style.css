@@ -1,0 +1,61 @@
+/* 
+    Document   : Estilo General
+    Author     : Angel Gonzalez
+    Description: estilo general del demo
+*/
+body {
+  padding-top: 54px;
+  padding-bottom: 30px;
+}
+
+/*==================HEADER======================*/
+.wrapper > .navbar-fixed-top{
+	clear: both;
+}
+#main-header{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.54);
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+.navbar-default {
+	background: none;
+	border: none;
+}
+.navbar-default .navbar-nav > li > a.active
+{
+	color: #fff;
+	background: #46b0c3;
+	border-bottom: 4px solid #3e9aab;
+}
+
+section {	
+	position: relative;
+	display: block;
+}
+
+/*============REVOLUTION SLIDER =========================*/
+.rev-slider-full {
+	padding: 0px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 0;
+	width: 100%;
+	position: relative;
+	padding: 0;
+	max-height: 500px;
+	overflow: hidden;
+	visibility: hidden;
+	left: 0;
+	top: 0;
+	clear: both;
+}
+
+
+@media only screen (min-width: 992px)  {
+	.navbar-header {
+		float: left;
+	}
+}
