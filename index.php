@@ -42,7 +42,7 @@
                 
             </header>
             <section>
-                <div class="flexslider">
+                <div class="flexslider flexFullScreen">
                     <ul class="slides">
                         <li>
                             <img src="img/slides/kitchen_adventurer_cheesecake_brownie.jpg" />
