@@ -28,7 +28,6 @@
                             </div>
                             <div class="collapse navbar-collapse">
                                 <ul class="nav navbar-nav pull-right">
-                                    <li class=""><a class="active" href="">Home</a></li>
                                     <li>
                                         <a href="">Login | Register</a>
                                     </li>
@@ -43,86 +42,67 @@
             </header>
             <section>
                 <div class="flexslider flexFullScreen">
-                    <ul class="slides">
+                    <ul class="slides sliderWrapper">
                         <li>
-                            <img src="img/slides/kitchen_adventurer_cheesecake_brownie.jpg" />
+                            <img src="img/slides/slide1.jpg" alt="pic 1">
+                            <div class="caption right" style="display: block;">
+                                
+                                
+                            </div>
                         </li>
                         <li>
-                            <img src="img/slides/kitchen_adventurer_lemon.jpg" />
+                            <img src="img/slides/slide2.jpg" alt="pic 3">
+                            <div class="caption left" style="display: block;">
+                                
+                            </div>
                         </li>
                         <li>
-                            <img src="img/slides/kitchen_adventurer_donut.jpg" />
-                        </li>
-                        <li>
-                            <img src="img/slides/kitchen_adventurer_caramel.jpg" />
+                            <img src="img/slides/slide3.jpg" alt="pic 2">
+                            <div class="caption right" style="display: block;">
+                                
+                            </div>
                         </li>
                     </ul>
+                    <ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a class="">2</a></li><li><a class="">3</a></li></ol><ul class="flex-direction-nav"><li><a class="flex-prev" href="#"><i class="icon-left-open"></i></a></li><li><a class="flex-next" href="#"><i class="icon-right-open"></i></a></li></ul>
                 </div>
+                <div class="cnt">
+                    Singup Now
+                </div>
+                <div class="trans">
+                    
+                </div>
+                <div class="form1">
+                    <br>
+                    <form action="">
+                        <fieldset>
+                            <div class="form-group col-md-11">
+                                <input required placeholder="Email" class="form-control input-sm">
+                            </div>
+                            <div class="form-group col-md-11">
+                                <input  required placeholder="Password" class="form-control input-sm">
+                            </div>
+                            <div class="form-group col-md-11 text-right">
+                                <button class="btn btn-info">Send</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="form2"></div>
             </section>
             <section class="content">
-                <section class="color2">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h1>Login</h1>
-                                <form action="">
-                                    <fieldset>
-                                        <div class="form-group">
-                                            <!--label for="">Username or email address *</label-->
-                                            <input placeholder="Username or email address" class="form-control" type="text">
-                                        </div>
-                                        <div class="form-group">
-                                            <!--label for="">Username or email address *</label-->
-                                            <input placeholder="Password" class="form-control" type="text">
-                                        </div>
-                                        <button class="btn btn-info">Login</button>
-                                    </fieldset>
-                                </form>
-                            </div>
-                            <div class="col-md-6">
-                                <h1>Register</h1>
-                                <form action="">
-                                    <fieldset>
-                                        <div class="form-group">
-                                            <!--label for="">Username or email address *</label></label-->
-                                            <input placeholder="Email address" class="form-control" type="text">
-                                        </div>
-                                        <div class="form-group">
-                                            <!--label for="">Username or email address *</label-->
-                                            <input placeholder="Password" class="form-control" type="text">
-                                        </div>
-                                        <button class="btn btn-info">Register</button>
-                                    </fieldset>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="paralaxSlice3" class="testimonial-big">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="testimonial-big-text animated fadeInRight animatedVisi" data-animtype="fadeInRight" data-animrepeat="1" data-speed="1s" data-delay="0s">
-                                    <blockquote>
-                                        Robin Whipple: be able to search by both type of cooking like italian and type of meat or vegatarian
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                
+                
+            </section>
+            <section >
+                
+            </section>
         </section>
-        <section >
-            
-        </section>
-    </section>
-</div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<!--Agregamos el plugin para las sliders-->
-<script type="text/javascript" src="css/flexislider/jquery.flexslider-min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!--Agregamos el plugin para las sliders-->
+    <script type="text/javascript" src="css/flexislider/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

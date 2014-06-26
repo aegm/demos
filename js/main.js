@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	 
-     /*
+
+/*
     |--------------------------------------------------------------------------
     | FLEXSLIDER
     |--------------------------------------------------------------------------
@@ -17,13 +18,13 @@ $(document).ready(function(){
             prevText: '<i class="icon-left-open"></i>',           
             nextText: '<i class="icon-right-open"></i>',   
             start: function(slider){
-                setTimeout("animateTxt("+slider.currentSlide+", 'in')", 100);  
+               // setTimeout("animateTxt("+slider.currentSlide+", 'in')", 100);  
             },
             before: function(slider){
-                setTimeout("animateTxt("+slider.currentSlide+")", 100);  
+               //setTimeout("animateTxt("+slider.currentSlide+")", 100);  
             },
             after: function(slider){
-                setTimeout("animateTxt("+slider.currentSlide+", 'in')", 100);  
+                //setTimeout("animateTxt("+slider.currentSlide+", 'in')", 100);  
             } 
         });
 

@@ -9,6 +9,7 @@
 body {
   padding-top: 54px;
   padding-bottom: 30px;
+  background: #252525;
 }
 
 /*==================COLORS======================*/
@@ -37,7 +38,7 @@ body {
 }
 #main-header{
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.54);
-	background: #fff;
+	background: #252525;
 
 }
 
@@ -47,12 +48,6 @@ body {
 .navbar-default {
 	background: none;
 	border: none;
-}
-.navbar-default .navbar-nav > li > a.active
-{
-	color: #fff;
-	background: #cd1041;
-	border-bottom: 4px solid #a50d33;
 }
 
 section {	
@@ -117,7 +112,66 @@ blockquote:after {
 
 
 
-/*============REVOLUTION SLIDER =========================*/
+/*============Flex SLIDER =========================*/
+.FlexFullScreen{
+	max-height: 500px;
+	height: 500px;
+}
+
+/*============Form =========================*/
+.cnt{
+	width:300px;
+	margin:0px;
+	padding:15px;
+	font-weight:bold;
+	position:absolute;
+	top:10%;
+	left:70%;
+	text-align: right;
+	font-weight: bold;
+	z-index: 2;
+	color: #fff;
+	font-size: 22px;
+	line-height: 20px;
+}
+
+.trans{
+	/*background-color:Transparent;*/
+	color:#CC0000;
+	position:absolute;
+	text-align:center;
+	top:10%;
+	left:70%;
+	min-height: 50px;
+	font-size:25px;
+	font-weight:bold;
+	width:300px;
+	border-radius: 5px;
+	background: #cd1041;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+.form1{
+	position: absolute;
+	top:20%;
+	left: 70%;
+	width:300px;
+	max-height: 150px;
+	z-index: 2;
+	
+}
+
+.form2{
+	position: absolute;
+	top:20%;
+	left: 70%;
+	width:300px;
+	min-height: 150px;
+	background: #FF8F52;
+	opacity: 0.5;
+	z-index: 1;
+}
 
 
 @media only screen (min-width: 992px)  {
