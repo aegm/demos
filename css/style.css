@@ -2,10 +2,33 @@
     Document   : Estilo General
     Author     : Angel Gonzalez
     Description: estilo general del demo
+	Color nav active :#cd1041
+	boder nav active :#a50d33;
+
 */
 body {
   padding-top: 54px;
   padding-bottom: 30px;
+}
+
+/*==================COLORS======================*/
+.color2{
+	background-color: #cd1041;
+	color: #fff;
+}
+.color2 .iconRounded {
+	background-color: #46b0c3;
+	color: #fff;
+	border: 1px solid #fff;
+}
+.color2 .boxIcon a{
+	background-color: #cd1041;
+	color: #46b0c3;
+	border: 2px solid #46b0c3
+}
+
+.color2 h1,h2,h3,h4{
+	color: #fff;
 }
 
 /*==================HEADER======================*/
@@ -14,6 +37,8 @@ body {
 }
 #main-header{
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.54);
+	background: #fff;
+
 }
 
 .navbar{
@@ -26,8 +51,8 @@ body {
 .navbar-default .navbar-nav > li > a.active
 {
 	color: #fff;
-	background: #46b0c3;
-	border-bottom: 4px solid #3e9aab;
+	background: #cd1041;
+	border-bottom: 4px solid #a50d33;
 }
 
 section {	
@@ -35,27 +60,77 @@ section {
 	display: block;
 }
 
-/*============REVOLUTION SLIDER =========================*/
-.rev-slider-full {
-	padding: 0px;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	z-index: 0;
-	width: 100%;
-	position: relative;
-	padding: 0;
-	max-height: 500px;
-	overflow: hidden;
-	visibility: hidden;
-	left: 0;
-	top: 0;
-	clear: both;
+.boxIcon {
+	padding: 33px;
+	text-align: center;
+	display: block;
+	margin-bottom: 11px;
+
 }
+#paralaxSlice3 {
+	margin: 75px 0 0 0;
+	background-image: url('../img/parallax/parallax-3.jpg');
+}
+
+.testimonial-big-text {
+	text-align: center;
+	position: relative;
+}
+
+
+.testimonial-big-text blockquote, .testimonial-big-text h1, .testimonial-big-text h2, .testimonial-big-text h3, .testimonial-big-text p, .testimonial-big-text i {
+	color: #fff;
+}
+.testimonial-big-text blockquote{
+	background: #3E9AAB;
+	margin-bottom: 0;
+	font-weight: 400;
+	display: inline-block;
+	padding: 22px;
+	text-align: center;
+	font-size: 18px;
+}
+blockquote:before {
+	position: absolute;
+	right: 50;
+	bottom: 70px;
+	content: "\201D";
+	font-size: 90px;
+	color: black;
+	color: rgba(0, 0, 0, 0.35);
+}
+blockquote:after {
+	position: absolute;
+	left: 40px;
+	top: 120px;
+	content: "\201C";
+	font-size: 90px;
+	color: black;
+	color: rgba(0, 0, 0, 0.35);
+	
+}
+
+.testimonial-big .testimonial-big-text {
+	padding-top: 88px;
+	padding-bottom: 88px;
+}
+
+
+
+/*============REVOLUTION SLIDER =========================*/
 
 
 @media only screen (min-width: 992px)  {
 	.navbar-header {
 		float: left;
+	}
+
+	
+}
+
+@media only screen and (min-width: 1140px) {
+	.testimonial-big-text blockquote{
+		font-size: 25px;
+		line-height: 33px;
 	}
 }
