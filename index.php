@@ -23,13 +23,19 @@
                                 </button>
                                 <a href="" class="navbar-brand">
                                     <!--img src=""-->
-                                    Demo
+                                    <img src="img/logo/logo.png">
                                 </a>
                             </div>
                             <div class="collapse navbar-collapse">
                                 <ul class="nav navbar-nav pull-right">
                                     <li>
-                                        <a href="">Login | Register</a>
+                                        <a href="" class="active">Post your Favorite Order</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="">Members Directory</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="">Browse Your Favorite Order</a>
                                     </li>
                                     
                                 </ul>
@@ -46,8 +52,6 @@
                         <li>
                             <img src="img/slides/slide1.jpg" alt="pic 1">
                             <div class="caption right" style="display: block;">
-                                
-                                
                             </div>
                         </li>
                         <li>
@@ -88,10 +92,57 @@
                     </form>
                 </div>
                 <div class="form2"></div>
+                <div class="position-left">
+                    <div class="title transparente"></div>
+                    <div class="title">Lets Start it..</div>
+                </div>
+                <div class="form-left">
+                    <div class="form form-transparente"></div>
+                    <div class="form">
+                        <form action="">
+                            <fieldset>
+                                <div class="form-group col-md-12">
+                                    <input required placeholder="Full Name" class="form-control input-sm">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <input  required placeholder="Year" class="form-control input-sm">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <input  required placeholder="Month" class="form-control input-sm">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <input  required placeholder="Day" class="form-control input-sm">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <input  required placeholder="Gender" class="form-control input-sm">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <input  required placeholder="Your Email" class="form-control input-sm">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <input  required placeholder="Confirm Email" class="form-control input-sm">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <input  required placeholder="Select Password" class="form-control input-sm">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <input  required placeholder="Confirm Password" class="form-control input-sm">
+                                </div>
+                                <div class="form-group col-md-11 text-left">
+                                    <button class="btn btn-info">Send</button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    
+                </div>
             </section>
             <section class="content">
-                
-                
+                <row>
+                <div class="col-md-4"></div>
+                <div class="col-md-6"></div>
+                <div class="col-md-2"></div>
+                </row>
             </section>
             <section >
                 
